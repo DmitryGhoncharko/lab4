@@ -12,6 +12,7 @@ public class Task extends JPanel implements ActionListener{
     TextArea  textArea;
     private boolean buttonClicked = false;
     private static final String ANDREY = "BRAT";
+    private String lal;
     public Task(String title) throws HeadlessException {
         //заглавие приложения
         jFrame = new JFrame(title);
